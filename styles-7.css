@@ -81,6 +81,12 @@
     padding-top: 100px;
     padding-bottom: 20px;
   }
+
+  .greeting {
+    color: #3b3636;
+    text-align: center;
+  }
+  
   
   .seccion-1 .parrafo2{  /*esto esta todo bien */
     padding: 20px 0px;
