@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FlexBox</title>
+        <link rel="stylesheet" href="styles-7.css">
+        <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+
+        <header id="encabezado">
+            <h1 class="logo"><a href="www.google.com" class="fuente-acento">Mi primera web</a></h1>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="menu">
+                    <li><a href="index3.html">Inicio</a></li>
+                    <li><a href="index3.html">Trabajos</a></li> 
+                    <li><a href="index3.html">Servicios</a></li>
+                    <li><a href="#seccion-primaria">Acerca de mí</a></li>
+                    <li><a href="index3.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main id="seccion-primaria">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <div>
+                        <h2 class="fuente-acento">Sobre mí</h2>
+                        <p class="parrafo1">Tengo que contar algo de mí en este texto "P"</p>
+                        <p class="parrafo2">B.M. Señalizaciones S.A. es una empresa familiar fundada en 1994. Se especializa en la fabricación de conos viales, conos para deportes, ópticas y partes plásticas para el armado de diversos modelos de faros y semáforos electrónicos con iluminación led. Fábrica de señales de ruta (SEÑALIZACION VERTICAL) y todo tipo de carteles. Distribución de primeras marcas de productos para seguridad industrial. Fabricación de calcos y carteles. Impresión de gigantografías. Rotulación computada. </p>
+                    </div>
+                    
+                    <div class="acerca-imagen">
+                        <img src="imagenes/foto.jpg" alt="mi foto">
+                    </div>
+                </div>  
+            </section>
+        </main>
+
+
+        <main id="seccion-secundaria">
+            <section class="seccion-2">
+                <div>
+                    <img src="imagenes/foto3.jpg" alt="banner">
+                </div>
+            </section>
+        </main>
+
+
+        <main id="seccion-tercera">
+        
+            <h2 class="fuente-acento">Trabajos</h2>
+            <div class="centrado">
+                <div class="seccion-3">
+                    <div class="foto">
+                        <img src="imagenes/escritorio.jpg" alt="escritorio">
+                    </div>
+                    <h3 class="fuente-acento">Titulo 1</h3>
+                    <p class="parrafo4">¿Tenés una idea para un Passion Project y te gustaría que vea la luz con orden y estrategia? ¿Querés desarrollar tu branding personal y presencia online? ¡Empecemos un proceso de mentoría!</p>
+                    <a href="">Leer más</a>
+                </div> 
+                    
+                <div class="seccion-4">       
+                    <div class="foto">
+                        <img src="imagenes/escritorio.jpg" alt="escritorio">
+                    </div>
+                    <h3 class="fuente-acento">Titulo 2</h3>
+                    <p class="parrafo4">¿Tenés una idea para un Passion Project y te gustaría que vea la luz con orden y estrategia? ¿Querés desarrollar tu branding personal y presencia online? ¡Empecemos un proceso de mentoría!</p>
+                    <a href="">Leer más</a>
+                </div>
+
+                <div class="seccion-4">       
+                    <div class="foto">
+                        <img src="imagenes/escritorio.jpg" alt="escritorio">
+                    </div>
+                    <h3 class="fuente-acento">Titulo 3</h3>
+                    <p class="parrafo4">¿Tenés una idea para un Passion Project y te gustaría que vea la luz con orden y estrategia? ¿Querés desarrollar tu branding personal y presencia online? ¡Empecemos un proceso de mentoría!</p>
+                    <a href="">Leer más</a>
+                </div>
+            </div>
+        
+            <footer class="form-header">
+                <h1>Contacto</h1>
+                <p><em>¡Esperamos tu consulta!</em></p>
+                <form action="" method="get" class="formulario" id="form">
+                      
+                      <div class="form-row">
+                          <label for="nombre">Nombre</label>
+                          <input id="nombre" name="nombre" type="text" />    
+                      </div>
+                      <div class="form-row">
+                          <label for="email">Email</label>
+                          <input 
+                          id="email" 
+                          name="email" 
+                          type="email" 
+                          placeholder="pepe@gmail.com"
+                          required
+                          />
+                          
+                      </div>
+                      <div class="form-row">
+                          <label for="mensaje">Mensaje</label>      
+                          <textarea id="mensaje" name="mensaje"></textarea>      
+                      </div>
+                      <div class="form-row">
+                          <button type="submit" id="submit">Enviar</button>      
+                        </div>
+                        <p class="alertas" id="alertas"></p>
+                </form>
+          
+              </footer>
+
+
+
+            <footer id="contacto">
+                <h3 class="fuente-acento">Redes Sociales</h3>
+
+                <nav>
+                    <ul class="menu">
+                        <li><a href="">Contacto</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">TikTok</a></li>
+                        <li><a href="">WhatsApp</a></li>
+                    </ul>
+                </nav>
+            </footer>
+            
+        </main>
+
+        <script src="script-7.js"></script>
+    </body>
+</html>
